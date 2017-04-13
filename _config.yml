@@ -1,0 +1,57 @@
+
+# SEO settings
+title: "Ruby"
+title2: "Language" # default: ""
+description: "Un camí per aprendre Ruby a poc a poc."
+keywords: "Jekyll, ruby, free, download, SEO, blog, web, minimalist, thinkspace"
+url: http://inclusa.github.io # site url
+baseurl: "/ruby" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/inclusa/ruby
+disqus_shortname: "inclusa"
+twitter_username: "inclusa"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Alfons Rovira"
+  job      : "constructor d'habilitats"
+  bio      : "Constant aprenent."
+  thumb    : /images/author.jpg
+  email    : inclusa@gmail.com
+  url      : http://inclusa.github.io
+  github   : http://github.com/inclusa
+  twitter  : http://twitter.com/inclusa
+
+# social settings
+og_locale: "ca_ES"
+twitter_card: "summary_large_image"
+twitter_site: "@HeiswayiNrird"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
