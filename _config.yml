@@ -30,8 +30,8 @@ sass:
 # Author settings
 author:
   name     : "Alfons Rovira"
-  job      : "constructor d'habilitats"
-  bio      : "Constant aprenent."
+  job      : "constructor d'habilitats."
+  bio      : "Aques espai té com a objectiu deixar constància dels avanços en l'aprenentatge del llenguatge Ruby."
   thumb    : /images/author.jpg
   email    : inclusa@gmail.com
   url      : http://inclusa.github.io
