@@ -9,19 +9,19 @@ coments: true
 
 Instal·lació
 
-```
+```bash
 sudo apt install ruby irb rdoc
 ```
 
 Saber la versió de Ruby
 
-```
+```bash
 ruby -v
 ```
 
 Imprimint `Hola món`:
 
-```
+```ruby
 class HolaMundo
         def initialize()
         end
