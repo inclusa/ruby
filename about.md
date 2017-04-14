@@ -10,3 +10,5 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## Fonts
 
 - Codigo Facilito: [Curo básico de Ruby](https://codigofacilito.com/cursos/Ruby)
+- Fury Code: [Cuso de Ruby](https://www.youtube.com/playlist?list=PLCCvCjJoQ5QUUE7_n12QjYOStSZZzsGiI)] 
+- CodeHero: [Ruby desde Cero](http://codehero.co/series/ruby-desde-cero.html)
