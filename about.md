@@ -36,3 +36,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## #05 Cursos intreactius
 
 - [TryRuby](http://tryruby.org/). Tutorial interactiu per a principiants. Molt útil i agradable. Fàcil i lleuger on t'inicien amb el llenguatge.
+
+## #06 Programació
+
+- [El camino a un mejor programador](http://emanchado.github.io/camino-mejor-programador/)
