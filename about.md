@@ -26,6 +26,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## #03 Manuals
 
 - Ruby: [Documentación](https://www.ruby-lang.org/es/documentation/)
+- [Programing Ruby 1.9. The Pragmatic Programers' Guide](https://media.pragprog.com/titles/ruby3/ext_ruby.pdf)
 
 ## #04 Videos
 
