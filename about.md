@@ -15,6 +15,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 - [Aprende a programar](http://rubysur.org/aprende.a.programar/)
 - CodeHero: [Ruby desde Cero](http://codehero.co/series/ruby-desde-cero.html)
 - Ruby: [Guía de usuario](http://es.tldp.org/Manuales-LuCAS/doc-guia-usuario-ruby/guia-usuario-ruby.pdf)
+- [Ruby Tutorial](http://tryruby.org/levels/1/challenges/0)
 
 ### #02 Presentacions
 
