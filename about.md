@@ -32,6 +32,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 
 - Codigo Facilito: [Curo básico de Ruby](https://codigofacilito.com/cursos/Ruby)
 - Fury Code: [Cuso de Ruby](https://www.youtube.com/playlist?list=PLCCvCjJoQ5QUUE7_n12QjYOStSZZzsGiI)] 
+- [The poetry of programing](https://youtu.be/-jRREn6ifEQ)
 
 ## #05 Cursos intreactius
 
@@ -40,3 +41,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## #06 Programació
 
 - [El camino a un mejor programador](http://emanchado.github.io/camino-mejor-programador/)
+
+## #07 Blogs
+
+- [Hello Ruby](http://blog.helloruby.com/tagged/backerupdate)
