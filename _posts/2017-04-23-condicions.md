@@ -7,7 +7,6 @@ keywords: conditions
 coments: true
 ---
 
-Condicionals
 
 ```ruby
 numero_uno = gets.chomp.to_i
@@ -56,6 +55,8 @@ end
 
 Si s'acompleix la condició s'imprimeixen les dades, en cas contrari, no.
 
+### 1. Condició en una sola línia
+
 Modifiquem la condició i la posem en una sola línia de codi:
 
 ```ruby
@@ -73,6 +74,7 @@ puts "#{numero_uno} es mayor que #{numero_dos}" if numero_uno > numero_dos
 
 Aquest mètode sols es pot fer i el que s'executa davant de la sentència `if` és d'una sola línia, en cas contrari, cal fer-ho com ho hem fet abans.
 
+### 2. Afegim la condició `else`
 
 `else` és un codi que diu que s'execute el que va darrere d'ell en cas que ningua condició de les que van davant s'acomplisca.
 
@@ -88,7 +90,7 @@ end
 
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
-
+### 3. Afegim la condició `elsif`
 
 `elsif` ens permet crear una condició adicional
 
@@ -106,6 +108,8 @@ end
 
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
+
+### 3. Afegimr la condició `unless`
 
 `unless` modificador de `if` té la funció inversa a `if`, en aquest cas imprimeix "Hola mundo" en cas que la inversa 'if' es dóne
 
@@ -128,6 +132,8 @@ end
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
 
+### 5. En una sola línia
+
 ´unless` també es pot declarar en una sola línia de codi:
 
 ```ruby
@@ -146,6 +152,8 @@ puts "Hola mundo" unless false
 
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
+
+### 6. Utilització de la condició `if`
 
 Creem un nou exemple demanant l'edat de l'usuari:
 
@@ -170,6 +178,8 @@ puts "Hola mundo" unless false
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
 
+### 7. Utilització de la condició `unless`
+
 La condició `if` edad es pot resoldre bé posat `unless` en compte de `if`.
 
 ```ruby
@@ -191,6 +201,8 @@ puts "Hola mundo" unless false
 
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
+
+### 8 . Utilització de la negació `if !`
 
 També el podriem expressar així `if !(edad > 18)` el signe `!` nega la condició.
 
