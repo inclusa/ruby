@@ -48,7 +48,7 @@ numero_uno = gets.chomp.to_i
 numero_dos = gets.chomp.to_i
 
 if numero_uno > numero_dos
-  puts "puts "#{numero_uno} es mayor que #{numero_dos}"
+  puts "#{numero_uno} es mayor que #{numero_dos}"
 end
 
 # puts "#{numero_uno} es mayor que #{numero_dos}"
@@ -66,7 +66,7 @@ numero_dos = gets.chomp.to_i
 #  puts "puts "#{numero_uno} es mayor que #{numero_dos}"
 # end
 
-puts "puts "#{numero_uno} es mayor que #{numero_dos}" if numero_uno > numero_dos
+puts "#{numero_uno} es mayor que #{numero_dos}" if numero_uno > numero_dos
 
 # puts "#{numero_uno} es mayor que #{numero_dos}"
 ```
@@ -97,11 +97,11 @@ numero_uno = gets.chomp.to_i
 numero_dos = gets.chomp.to_i
 
 if numero_uno > numero_dos && numero_dos < numero_uno
- puts "puts "#{numero_uno} es mayor que #{numero_dos}"
+ puts "#{numero_uno} es mayor que #{numero_dos}"
 elsif numero_uno == numero_dos
  puts "Ambos números son iguales"
 else
- puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+ puts "#{numero_dos} es mayor que #{numero_uno}"
 end
 
 # puts "#{numero_uno} es menor que #{numero_dos}"
@@ -118,7 +118,7 @@ numero_dos = gets.chomp.to_i
 # elsif numero_uno == numero_dos
 #  puts "Ambos números son iguales"
 # else
-#  puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+#  puts "#{numero_dos} es mayor que #{numero_uno}"
 # end
 
 unless false
@@ -139,7 +139,7 @@ numero_dos = gets.chomp.to_i
 # elsif numero_uno == numero_dos
 #  puts "Ambos números son iguales"
 # else
-#  puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+#  puts "#{numero_dos} es mayor que #{numero_uno}"
 # end
 
 puts "Hola mundo" unless false
@@ -158,7 +158,7 @@ edad = gets.chomp.to_i
 # elsif numero_uno == numero_dos
 #  puts "Ambos números son iguales"
 # else
-#  puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+#  puts "#{numero_dos} es mayor que #{numero_uno}"
 # end
 
 if edad <= 18
@@ -180,7 +180,7 @@ edad = gets.chomp.to_i
 # elsif numero_uno == numero_dos
 #  puts "Ambos números son iguales"
 # else
-#  puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+#  puts "#{numero_dos} es mayor que #{numero_uno}"
 # end
 
 unless edad <= 18
@@ -202,7 +202,7 @@ edad = gets.chomp.to_i
 # elsif numero_uno == numero_dos
 #  puts "Ambos números son iguales"
 # else
-#  puts "puts "#{numero_dos} es mayor que #{numero_uno}"
+#  puts "#{numero_dos} es mayor que #{numero_uno}"
 # end
 
 if !(edad >= 18)
