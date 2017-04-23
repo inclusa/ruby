@@ -109,7 +109,7 @@ end
 # puts "#{numero_uno} es menor que #{numero_dos}"
 ```
 
-### 3. Afegimr la condició `unless`
+### 4. Afegimr la condició `unless`
 
 `unless` modificador de `if` té la funció inversa a `if`, en aquest cas imprimeix "Hola mundo" en cas que la inversa 'if' es dóne
 
