@@ -11,7 +11,7 @@ Operador ternario
 
 ### 1. Partim d'aquest codi
 
-```rubry
+```ruby
 user = "Uriel"
 
 if user == "Uriel"
@@ -27,7 +27,7 @@ Tutor
 ```
 ### 2. Tot en una línia
 
-```rubry
+```ruby
 user = "Uriel"
 
 # if user == "Uriel"
