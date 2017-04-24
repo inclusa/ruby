@@ -38,6 +38,7 @@ user = "Uriel"
 
   puts (if user == "Uriel" then "Tutor" else "Visitante" end)
 ```
+
 Outuput
 
 ```ruby
@@ -60,9 +61,9 @@ respuesta if user == "Uriel" then
 else
  "Visitante"
 end
-`
+```
 
-4. Operador ternari
+### 4. Operador ternari
 
 ```ruby
 user = "Uriel"
