@@ -45,3 +45,10 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## #07 Blogs
 
 - [Hello Ruby](http://blog.helloruby.com/tagged/backerupdate)
+
+## #08 Entorns
+
+- [Ruby Version Manager](http://rvm.io/)
+- [VirtualEnv - Programari](https://github.com/rbenv/rbenv)
+- [VirtualEnv - Manual](http://virtualenvwrapper.readthedocs.io/en/latest/)
+- [VirtualEnv - Artícle](https://rooteando.com/virtualenvwrapper-liclipse-pip-y-algunas-cosas-mas/)
