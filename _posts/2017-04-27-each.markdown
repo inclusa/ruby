@@ -1,0 +1,166 @@
+---
+layout: post
+title: 17 Each
+date: dj 27 abr 2017 05:38:00 CEST 
+description: Iterar
+keywords: iteration
+coments: true
+---
+
+Arreglos con Each
+
+- És un *iterador* en Ruby
+- Serveix per a iterar arreglos i hash
+
+### 1. Iterar
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+puts calificaciones
+```
+
+Output
+
+```ruby
+10
+7
+8
+9
+5
+8
+10
+```
+### 2. Per a imprimir en una línia `print`
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+print calificaciones
+```
+
+Output
+
+```ruby
+["10", "7", "8", "9", "5", "8", "10"]
+```
+
+### 3. Traure la mija aritmètica
+:
+Incorporamos el concepto de `bloque`:
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+suma = 0
+
+calificaciones.each do |calificacion|
+  puts "Nota: #{calificacion}"
+end
+```
+
+El bloque es lo que va entre `do` y `end`.
+
+`|calificacion|` hace referencia a cada parámetro uno a uno.
+
+`puts` imprimirá cada valor que contenta la lista o arreglo `|calificacion|`.
+
+Output
+
+```ruby
+Nota: 10
+Nota: 7
+Nota: 8
+Nota: 9
+Nota: 5
+Nota: 8
+Nota: 10
+```
+### 4. Mètode `each_with_index`
+
+Per a saber la posició el la què ens trobem podem utilizar el mètode `each_with_index`.
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+suma = 0
+
+calificaciones.each_with_index do |calificacion,posicion|
+  puts "En la psocición #{posicion} tenemos la nota: #{calificacion}"
+end
+```
+
+Output
+
+```ruby
+En la psocición 0 tenemos la nota: 10
+En la psocición 1 tenemos la nota: 7
+En la psocición 2 tenemos la nota: 8
+En la psocición 3 tenemos la nota: 9
+En la psocición 4 tenemos la nota: 5
+En la psocición 5 tenemos la nota: 8
+En la psocición 6 tenemos la nota: 10
+```
+
+### 5. Ara traurem la `mija`
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+suma = 0
+
+calificaciones.each_with_index do |calificacion,posicion|
+  suma += calificacion.to_i # to._i Convertirm cadenes a sensers
+end
+
+puts "El promedi de les calificacions és #{suma / calificaciones.length}" # Amb length Obtenim el nombre d'elements
+```
+
+Output
+
+```ruby
+El promedi de les calificacions és 8
+```
+
+### 6. Per obtenir decimals cal convertir-ho a decimal
+
+Per fer-ho cal modificar `suma.to_f` per tal que una de les dues variables siga decimal.
+
+```ruby
+# Cicle each
+
+calificaciones = %w[10 7 8 9 5 8 10]
+
+suma = 0
+
+calificaciones.each_with_index do |calificacion,posicion|
+  suma += calificacion.to_i # to._i Convertirm cadenes a sensers
+end
+
+puts "El promedi de les calificacions és #{suma.to_f / calificaciones.length}" # Amb length Obtenim el nombre d'elements
+```
+
+Output
+
+```ruby
+El promedi de les calificacions és 8.142857142857142
+```
+
+### 7. En altres llenguatges
+
+En altres llenguatges, per iterar s'utilitza `for`, en Ruby també es pot utilitzar, pero quasi sempre s'utilitza `each` per iterar.
+
+
+### 8. Font
+
+[Código Facilito](https://codigofacilito.com/videos/15-curso-ruby-iterar-arreglos-con-each)
