@@ -10,7 +10,7 @@ coments: true
 Arreglos con Each
 
 - És un *iterador* en Ruby
-- Serveix per a iterar arreglos i hash
+- Serveix per a iterar llistas i hash
 
 ### 1. Iterar
 
@@ -69,7 +69,7 @@ El bloque es lo que va entre `do` y `end`.
 
 `|calificacion|` hace referencia a cada parámetro uno a uno.
 
-`puts` imprimirá cada valor que contenta la lista o arreglo `|calificacion|`.
+`puts` imprimirá cada valor que contenta la lista o llista `|calificacion|`.
 
 Output
 

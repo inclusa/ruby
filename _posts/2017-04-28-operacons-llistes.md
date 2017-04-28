@@ -7,9 +7,9 @@ keywords: list
 coments: true
 ---
 
-Operaciones con arreglos
+Operaciones con llistes
 
-### 1. Definim i imprimim arreglos
+### 1. Definim i imprimim llistes
 
 ```ruby
 calificaciones = %w[10 7 8 9 5 8 10]
@@ -49,7 +49,7 @@ Output
 10 - 7 - 8 - 9 - 5 - 8 - 10
 ```
 
-### 3. Convertint un arreglo en una cadena utilitzant `join`
+### 3. Convertint un llista en una cadena utilitzant `join`
 
 ```ruby
 calificaciones = %w[10 7 8 9 5 8 10]
@@ -89,7 +89,7 @@ Output
 10,7,8,9,5,8,10
 ```
 
-### 6. Ordenar arreglo de major a menor
+### 6. Ordenar llista de major a menor
 
 ```ryby
 calificaciones = %w[10 7 8 9 5 8 10]
@@ -213,7 +213,7 @@ Output
 10
 6
 ```
-### 13. Demanar el mateix arreglo però sense elements repetits `uniq`
+### 13. Demanar el mateix llista però sense elements repetits `uniq`
 
 Torna valors únics, no torna valors repetits.
 
@@ -232,7 +232,7 @@ Output
 9
 5
 ```
-### 14. Traure un element al atzar, random de l'arreglo `sample`
+### 14. Traure un element al atzar, random de la llista `sample`
 
 ```ruby
 calificaciones = [10, 7, 8, 9, 5, 8, 10]
