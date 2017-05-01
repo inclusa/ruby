@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 20 While - Until
-date: dg 30 apr 2017 05:42:39 CEST 
+date: dg 30 abr 2017 05:42:39 CEST 
 description: While - Until 
 keywords:  while until
 coments: true
