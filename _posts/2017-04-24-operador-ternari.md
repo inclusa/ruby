@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 14 Operador ternari
-date: dl 24 abr 2017 07:24:02 CEST 
+date: dl 24 apr 2017 07:24:02 CEST 
 description: Diverses maneres de posar sentències condicionals
 keywords: operator
 coments: true

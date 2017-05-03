@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 02 Comentaris
-date: dv 14 abr 2017 00:11:14 CEST  
+date: dv 14 apr 2017 00:11:14 CEST  
 description: Agregar comentaris
 keywords: coments
 coments: true

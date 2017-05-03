@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 11 Operadors de comparació
-date: dv 21 abr 2017 06:35:47 CEST 
+date: dv 21 apr 2017 06:35:47 CEST 
 description: Operadors de comparació 
 keywords: operators
 coments: true

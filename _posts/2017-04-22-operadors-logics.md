@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 12 Operadors lògics
-date: ds 22 abr 2017 06:48:34 CEST 
+date: ds 22 apr 2017 06:48:34 CEST 
 description: Operadors lògics i ordre d'execució
 keywords: operators logics
 coments: true

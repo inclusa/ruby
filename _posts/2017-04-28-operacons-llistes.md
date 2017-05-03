@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 18 Operacions amb llistes
-date: dv 28 abr 2017 17:52:23 CEST 
+date: dv 28 apr 2017 17:52:23 CEST 
 description: Operacions amb llistes
 keywords: list
 coments: true

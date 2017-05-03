@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 13 Condicionals
-date: dg 23 abr 2017 09:03:50 CEST 
+date: dg 23 apr 2017 09:03:50 CEST 
 description: Concicionals
 keywords: conditions
 coments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 09 Entrada i eixida
-date: dc 19 abr 2017 07:50:39 CEST
+date: dc 19 apr 2017 07:50:39 CEST
 description: Entrada i eixida de dades
 keywords: input output
 coments: true

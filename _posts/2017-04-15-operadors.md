@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 06 Operadors
-date: ds 15 abr 2017 06:27:14 CEST 
+date: ds 15 apr 2017 06:27:14 CEST 
 description: Descripció
 keywords: operadors
 coments: true

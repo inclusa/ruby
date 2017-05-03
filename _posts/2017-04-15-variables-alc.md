@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 05 Variables
-date: ds 15 abr 2017 06:11:08 CEST 
+date: ds 15 apr 2017 06:11:08 CEST 
 description: Alcanç de les variables 
 keywords: variable
 coments: true
