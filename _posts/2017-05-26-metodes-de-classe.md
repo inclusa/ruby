@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 32 Mètodes de classe
-date: 2017-05-26 dv 04:31
+title: 33 Mètodes de classe
+date: 2017-05-26 dv 16:31
 description: Mètodes de classe
 keywords: methods
 coments: true
