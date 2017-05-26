@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 37 Alcanç de variable en un bloc
-date: 2017-05-26 20:30:00
+title: 38 Alcanç de variable en un bloc
+date: 2017-05-26 20:55:00
 description: Alcanç de variables en un bloc
 keywords: var
 coments: true

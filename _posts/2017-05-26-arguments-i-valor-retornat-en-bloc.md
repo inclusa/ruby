@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 36 Arguments i valor retornat en bloc
-date: 2017-05-26 20:35:00
+title: 37 Arguments i valor retornat en bloc
+date: 2017-05-26 20:45:00
 description: Arguments i valor retornat en bloc
 keywords: arguments
 coments: true
