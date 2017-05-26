@@ -52,3 +52,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 - [VirtualEnv - Programari](https://github.com/rbenv/rbenv)
 - [VirtualEnv - Manual](http://virtualenvwrapper.readthedocs.io/en/latest/)
 - [VirtualEnv - Artícle](https://rooteando.com/virtualenvwrapper-liclipse-pip-y-algunas-cosas-mas/)
+
+## ##09 Estils
+
+- [Guía d'estill de Ruby](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md)
