@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 34 Polimorfisme
+title: 35 Polimorfisme
 date: 2017-05-26 19:00:00
 description: Polimorfisme
 keywords: polymorphism
