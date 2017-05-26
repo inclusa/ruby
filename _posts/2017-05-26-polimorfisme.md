@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 34 Polimorfisme
-date: 2017-05-26 17:00:00
+date: 2017-05-26 16:00:00
 description: Polimorfisme
 keywords: polymorphism
 coments: true
