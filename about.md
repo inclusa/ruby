@@ -17,7 +17,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 - [Why's program you Ruby](http://www.rubyinside.com/media/poignant-guide.pdf)
 - [Learn to Program](https://pine.fm/LearnToProgram/). Existeix la versió en espanyol, molt últil, clar i senzill.
 - [Ruby en 20 minuts](https://www.ruby-lang.org/es/documentation/quickstart/)
-
+- [Codehero](http://codehero.co/series/ruby-desde-cero.html)
 
 ## #02 Presentacions
 
