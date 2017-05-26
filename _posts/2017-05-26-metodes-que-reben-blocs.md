@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 35 Mètodes que reben blocs
-date: 2017-05-23 19:20:00
+title: 36 Mètodes que reben blocs
+date: 2017-05-23 20:15:00
 description: Mètodes que reben blocs
 keywords: methods
 coments: true
