@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 33 Variables de classe
-date: 2017-05-26 16:00:00
+date: 2017-05-26 21:00:00
 description: Variables de classe
 keywords: var class
 coments: true
