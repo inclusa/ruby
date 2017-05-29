@@ -19,6 +19,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 - [Ruby en 20 minuts](https://www.ruby-lang.org/es/documentation/quickstart/)
 - [Codehero](http://codehero.co/series/ruby-desde-cero.html)
 - [Wikilibros: Progrmación en Ruby](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Ruby)
+- [Ruby Essentials](http://www.techotopia.com/index.php/Ruby_Essentials)
 
 ## #02 Presentacions
 
