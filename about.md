@@ -10,6 +10,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## #01 Guies
 
 - [Learn to program](https://pine.fm/LearnToProgram/)
+- [Tutorial Pont: Ruby](https://www.tutorialspoint.com/ruby/index.htm)
 - [Aprende a programar](http://rubysur.org/aprende.a.programar/)
 - CodeHero: [Ruby desde Cero](http://codehero.co/series/ruby-desde-cero.html)
 - Ruby: [Guía de usuario](http://es.tldp.org/Manuales-LuCAS/doc-guia-usuario-ruby/guia-usuario-ruby.pdf)
