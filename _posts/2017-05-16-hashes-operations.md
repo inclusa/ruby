@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 24 Operacions amb hashes
-date: dt 16 mai 2017 04:34:26 CEST 
+date: dt 16 may 2017 04:34:26 CEST 
 description: Operacions amb hashes 
 keywords: hash
 coments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 21 Times, Upto, Downto
-date: dl 01 mai 2017 09:04:51 CEST 
+date: dl 01 may 2017 09:04:51 CEST 
 description: Iteradors
 keywords: times upto downto
 coments: true

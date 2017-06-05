@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 25 Codecademy 
+title: 40 Codecademy 
 date: 2017-06-05 dl 04:47
 description: Recopilacio de Ruby en Codecademy
 keywords: codecademy
