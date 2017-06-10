@@ -1,6 +1,6 @@
 ---
 layout: post # page | post
-title: Entorn Oh My Zsh
+title: 41 Entorn Oh My Zsh
 date: 2017-06-10 
 description: Configuració de RVM en l'entorn Oh My Zsh  # Argument
 keywords: rmv zsh ohmyzsh  # Paraules clau
