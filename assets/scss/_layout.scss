@@ -64,7 +64,8 @@ hr {
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
+    border-bottom: 2px solid #D8342D;
+    #border-bottom: 2px solid $blue-color;
   }
 }
 
@@ -175,7 +176,8 @@ hr {
 .post-title {
   margin-top: 0;
   margin-bottom: 2em;
-  color: $dark-gray-color;
+  color: #D8342D;
+  #color: $dark-gray-color;
 }
 
 .post-link,
