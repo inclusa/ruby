@@ -7,7 +7,7 @@ permalink: /about/
 
 Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció Ruby. Aquest blog és un exercici, una bitàcora on deixaré constància dels avanços, però també de les dificultats.
 
-## #01 Guies
+## 01 Guies
 
 1. [Learn to program](https://pine.fm/LearnToProgram/)
 2. [Tutorial Pont: Ruby](https://www.tutorialspoint.com/ruby/index.htm)
@@ -24,9 +24,10 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 13. [Ruby Tutorial](http://rubytutorial.wikidot.com/)
 14. [Ruby Tutorial - PDF](https://www.gitbook.com/book/asuagar/aprende-a-programar-con-ruby/details)
 
-## #02 Presentacions
+## 02 Slides
 
-1. Ruby: [Un lenguaje dinámico moderno](http://www.demiurgo.org/charlas/ruby.pdf)
+1. [Ruby: Un lenguaje dinámico moderno](http://www.demiurgo.org/charlas/ruby.pdf)
+2. [Ruby course](http://ruby-doc.org/docs/Immersive%20Ruby%20programming%20course/RubyCourse_1.0-1.pdf)
 
 ## #03 Manuals
 
