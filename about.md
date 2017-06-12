@@ -22,6 +22,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 - [Wikilibros: Progrmación en Ruby](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Ruby)
 - [Ruby Essentials](http://www.techotopia.com/index.php/Ruby_Essentials)
 - [Ruby Tutorial](http://rubytutorial.wikidot.com/)
+- [Ruby Tutorial - PDF](https://www.gitbook.com/book/asuagar/aprende-a-programar-con-ruby/details)
 
 ## #02 Presentacions
 
