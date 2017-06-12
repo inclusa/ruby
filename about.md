@@ -7,6 +7,11 @@ permalink: /about/
 
 Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció Ruby. Aquest blog és un exercici, una bitàcora on deixaré constància dels avanços, però també de les dificultats.
 
+## 00 Comença per ací
+
+1. [Ruby Tutorial](http://rubytutorial.wikidot.com/)
+2. [Ruby Tutorial - PDF](https://www.gitbook.com/book/asuagar/aprende-a-programar-con-ruby/details)
+
 ## 01 Guies
 
 1. [Learn to program](https://pine.fm/LearnToProgram/)
@@ -21,8 +26,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 10. [Codehero](http://codehero.co/series/ruby-desde-cero.html)
 11. [Wikilibros: Progrmación en Ruby](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Ruby)
 12. [Ruby Essentials](http://www.techotopia.com/index.php/Ruby_Essentials)
-13. [Ruby Tutorial](http://rubytutorial.wikidot.com/)
-14. [Ruby Tutorial - PDF](https://www.gitbook.com/book/asuagar/aprende-a-programar-con-ruby/details)
+
 
 ## 02 Slides
 
