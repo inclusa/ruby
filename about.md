@@ -9,6 +9,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 
 ## 00 Comença per ací
 
+0. [Ruby en 15 minutos](http://rubytutorial.wikidot.com/ruby-15-minutos#toc7)
 1. [Ruby Tutorial](http://rubytutorial.wikidot.com/)
 2. [Ruby Tutorial - PDF](https://www.gitbook.com/book/asuagar/aprende-a-programar-con-ruby/details)
 
