@@ -86,3 +86,5 @@ Me has llamado 1 veces
 Me has llamado 2 veces
 Me has llamado 3 veces
 ```
+
+Font: [Ruby en 15 Minutos](http://rubytutorial.wikidot.com/ruby-15-minutos#toc20)
