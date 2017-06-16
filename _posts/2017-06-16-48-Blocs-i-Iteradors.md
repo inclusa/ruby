@@ -29,11 +29,13 @@ fac     # 120
 
 ### Blocs: sintaxi ###
 
+```ruby
 # Els blocs són tancats per do || ... end
 [1,2,3,4,5].each do |e| puts e end
 
 # o per parèntesi
 [1,2,3,4,5].map{ |e| e*e}   #[1,4,9,15,25]
+```
 
 Per convenció:
 
