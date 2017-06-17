@@ -9,7 +9,7 @@ coments: true    # Comentaris activats
 
 ### Case ###
 
-```
+```ruby
 def saludar(*nombres)   # * indica un nombre indefinit d'arguments
   case nombres.length
     when 0
