@@ -1,0 +1,31 @@
+---
+layout: post # page | post
+title: 49 Estructures de control
+date: 2017-06-16 
+description: Case, if... else, booleans, bucles  # Argument
+keywords: case, if, else, booleans, bucles,      # Paraules clau
+coments: true    # Comentaris activats
+---
+
+### Case ###
+
+```
+def saludar(*nombres)   # * indica un nombre indefinit d'arguments
+  case nombres.length
+    when 0
+      "Que triste, nadie ha leido mi tutorial"
+    when 1
+      "Hola #{nombres}. Por lo menos una persona quiere saber Ruby"
+    when 2..5
+      "Hola #{nombres.join(', ')}. Gracias por venir"
+    when 6..12
+      "#{nombres.length} lectores. Bienvenidos a Ruby!"
+    else
+      "Wow #{nombres.length} lectores. Cuanta gente!"
+  end
+end
+ 
+puts saludar('Alejandro', 'Luis', 'Pedro', 'Antonio', 'Guido', 'Matz, 'Satish')
+# 7 lectores. Bienvendios a Ruby!
+```
+
