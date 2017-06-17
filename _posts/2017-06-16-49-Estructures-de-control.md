@@ -118,3 +118,5 @@ puts r                       # [1, 3, 5, 7]
 # Los bloques pueden simplificar muchas cosas
 (0..7).select{ |i| % 2 != 0}   # [1, 3, 5, 7]
 ```
+
+Font: [Ruby en 15 minutos](http://rubytutorial.wikidot.com/ruby-15-minutos)
