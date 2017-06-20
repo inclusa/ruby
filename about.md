@@ -67,3 +67,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## 09 Estils
 
 1. [Guía d'estill de Ruby](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md)
+
+## 10 Exercicis
+
+1. [Launch school. Intro exercises](https://launchschool.com/books/ruby/read/intro_exercises)
