@@ -44,7 +44,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 1. Codigo Facilito: [Curo básico de Ruby](https://codigofacilito.com/cursos/Ruby)
 2. Fury Code: [Cuso de Ruby](https://www.youtube.com/playlist?list=PLCCvCjJoQ5QUUE7_n12QjYOStSZZzsGiI)] 
 3. [The poetry of programing](https://youtu.be/-jRREn6ifEQ)
-4. [Ruby Programming](Learn the Ruby Programming Language in One Video](https://youtu.be/Dji9ALCgfpM)
+4. [Ruby Programming. Learn the Ruby Programming Language in One Video](https://youtu.be/Dji9ALCgfpM)
 
 ## 05 Cursos intreactius
 
