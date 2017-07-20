@@ -3,3 +3,4 @@ paraules = {thin: 'prim', thing: 'cosa', sun: 'sol', win: 'guanyar', wing: 'ala'
 paraules.sort.each do |clau,valor|
   puts "#{clau}: #{valor}"
 end
+
