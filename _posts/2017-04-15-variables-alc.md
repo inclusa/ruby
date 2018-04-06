@@ -19,7 +19,7 @@ $exemple = "Variable global"
 class HolaMundo
         def initialize()
                 @exemple = "Sóc una varaible d'instància"
-                $example = "Variable global modificada"
+                $exemple = "Variable global modificada"
         end
         def saluda()
                 example = "Sóc una variable local"
@@ -32,4 +32,12 @@ end
 objeto = HolaMundo.new()
 objeto.saluda
 gets()
+```
+
+Obtenim
+
+```ruby
+Variable global
+Sóc una varaible instància
+Soc una variable local
 ```
