@@ -72,3 +72,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## 10 Exercicis
 
 1. [Launch school. Intro exercises](https://launchschool.com/books/ruby/read/intro_exercises)
+
+## 11. Generadors
+
+1. [Generador de data en Ruby](http://strftimer.com/)
