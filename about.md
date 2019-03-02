@@ -76,3 +76,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 ## 11. Generadors
 
 1. [Generador de data en Ruby](http://strftimer.com/)
+
+## 12. Exercicis
+
+1. [Exercicis 01](https://github.com/sj26/ruby-1.9.3-p0)
