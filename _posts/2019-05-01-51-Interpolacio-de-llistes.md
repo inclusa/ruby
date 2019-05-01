@@ -1,6 +1,6 @@
 ---
 layout: post # note, post, report, capture
-title: 51 Interpolació de llistes
+title: 51 Interpol·lació de llistes
 date: 2019-05-01
 description: Incrustar variables dins del text
 keywords: interpolar llista
@@ -37,9 +37,9 @@ variable.each do |a|
 % #{a}
 % New York, 30 de abril de 2019
 
-Texto Lorem Ipsum en el que el alumno *#{a}* bla, bla, bla.
+Texto Lorem Ipsum en el què l'alumne *#{a}* bla, bla, bla.
 
-Finalmente, el el alumno *#{a}* debe traer...
+Finalmente, el el alumno *#{a}* ha de dur a classe...
 "
 end
 ```
