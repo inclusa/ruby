@@ -51,3 +51,44 @@ Així:
 ```
 pandoc file.md -o file.pdf
 ```
+
+Una versió extendida del mateix arxiu:
+
+```ruby
+#!/usr/bin/ruby -wKU
+# coding: utf-8
+
+# The Greeter class
+class Greeter
+  def initialize(name)
+    @name1 = name.capitalize
+    @name2 = name
+  end
+
+  def salute
+    puts "Hola #{@name1}! En minúscula #{@name2}!"
+  end
+end
+
+# Create a new object
+a = Greeter.new("món")
+b = Greeter.new("pedra")
+c = Greeter.new("taula")
+d = Greeter.new("martell")
+
+# Output "Hello World!"
+a.salute
+b.salute
+c.salute
+d.salute
+
+# Write in a file
+#File.write('/path/to/file', 'Some glorious content')
+#To append to the file, if it already exists, use:
+#File.write('/path/to/file', 'Some glorious content', mode: 'a')
+
+File.write('file.md', 'Lorem Ipsum')
+
+puts "Has creat un arxiu anomenat file.md, què conté 'Lorem Ipsum'"
+puts "Pots utilitzar Pandoc per generar pdf"
+```
