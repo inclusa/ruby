@@ -51,3 +51,65 @@ Així:
 ```
 pandoc file.md -o file.pdf
 ```
+
+Introduïm el color amb la gemma `colorize`, què podem trobar a [colorize](https://github.com/fazibear/colorize)
+
+```ruby
+#!/usr/bin/ruby -wKU
+# coding: utf-8
+
+require 'colorize'
+
+# The Greeter class
+class Greeter
+  def initialize(name)
+    @name1 = name.capitalize
+    @name2 = name
+  end
+
+
+  def ratlla
+    puts "------------------------------------------"
+  end
+  
+  def salute
+    puts "Hola" + " #{@name1}".colorize(:light_green) + "! En minúscula" +  " #{@name2}!".colorize(:light_red)
+  end
+
+  def text
+    puts "Lorem Ipsum" + " #{@name1}".colorize(:light_red) + ", ara una altra" + " #{@name2}".colorize(:light_blue)
+  end
+
+  def command
+    puts "Arxius en directori: "
+    puts `ls`.colorize(:blue)
+  end
+  
+end
+
+# Create a new object
+m = Greeter.new("")
+a = Greeter.new("món")
+b = Greeter.new("pedra")
+c = Greeter.new("taula")
+d = Greeter.new("martell")
+z = Greeter.new("")
+
+# Output "Hello World!"
+
+m.ratlla
+
+a.salute
+b.salute
+c.salute
+d.salute
+
+a.text
+b.text
+c.text
+d.text
+
+m.ratlla
+
+z.command
+```
