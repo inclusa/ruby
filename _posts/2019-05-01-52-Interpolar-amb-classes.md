@@ -52,29 +52,20 @@ Així:
 pandoc file.md -o file.pdf
 ```
 
-<<<<<<< HEAD
 Introduïm el color amb la gemma `colorize`, què podem trobar a [colorize](https://github.com/fazibear/colorize)
-=======
-Una versió extendida del mateix arxiu:
->>>>>>> 7fb5b380532585ce689e8ec72e11822a076c3a0f
 
 ```ruby
 #!/usr/bin/ruby -wKU
 # coding: utf-8
 
-<<<<<<< HEAD
 require 'colorize'
 
-=======
->>>>>>> 7fb5b380532585ce689e8ec72e11822a076c3a0f
 # The Greeter class
 class Greeter
   def initialize(name)
     @name1 = name.capitalize
     @name2 = name
   end
-
-<<<<<<< HEAD
 
   def ratlla
     puts "------------------------------------------"
@@ -97,35 +88,21 @@ end
 
 # Create a new object
 m = Greeter.new("")
-=======
-  def salute
-    puts "Hola #{@name1}! En minúscula #{@name2}!"
-  end
-end
-
-# Create a new object
->>>>>>> 7fb5b380532585ce689e8ec72e11822a076c3a0f
 a = Greeter.new("món")
 b = Greeter.new("pedra")
 c = Greeter.new("taula")
 d = Greeter.new("martell")
-<<<<<<< HEAD
 z = Greeter.new("")
 
 # Output "Hello World!"
 
 m.ratlla
 
-=======
-
-# Output "Hello World!"
->>>>>>> 7fb5b380532585ce689e8ec72e11822a076c3a0f
 a.salute
 b.salute
 c.salute
 d.salute
 
-<<<<<<< HEAD
 a.text
 b.text
 c.text
@@ -134,8 +111,7 @@ d.text
 m.ratlla
 
 z.command
-```
-=======
+
 # Write in a file
 #File.write('/path/to/file', 'Some glorious content')
 #To append to the file, if it already exists, use:
@@ -146,4 +122,3 @@ File.write('file.md', 'Lorem Ipsum')
 puts "Has creat un arxiu anomenat file.md, què conté 'Lorem Ipsum'"
 puts "Pots utilitzar Pandoc per generar pdf"
 ```
->>>>>>> 7fb5b380532585ce689e8ec72e11822a076c3a0f
