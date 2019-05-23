@@ -122,3 +122,63 @@ File.write('file.md', 'Lorem Ipsum')
 puts "Has creat un arxiu anomenat file.md, què conté 'Lorem Ipsum'"
 puts "Pots utilitzar Pandoc per generar pdf"
 ```
+
+Modificacions demant el nom pel terminal:
+
+```ruby
+#!/usr/bin/ruby -wKU
+# coding: utf-8
+
+require 'colorize'
+
+puts "Escriu dos noms: "
+
+# The Greeter class
+class Greeter
+  def initialize(name)
+    @name1 = name.chomp
+    @name2 = name.chomp
+  end
+
+  def nom
+    puts "Nom: "
+  end
+  
+  def ratlla
+    puts "------------------------------------------".colorize(:light_magenta)
+  end
+ 
+  def salute
+    puts "Hola" + " #{@name1}".colorize(:light_green) + "! Això és un text."
+  end
+
+  def text
+    puts "Lorem Ipsum" + " #{@name1}".colorize(:light_red) + ", ara una altra"
+  end
+
+  def command
+    puts "Arxius en directori: "
+    puts `ls`.colorize(:blue)
+    puts `date`.colorize(:light_magenta)
+  end
+  
+end
+
+# Create a new object
+
+m = Greeter.new("")
+a = Greeter.new(gets)
+b = Greeter.new(gets)
+z = Greeter.new("")
+
+# Output the object
+
+m.ratlla
+
+a.salute
+b.salute
+
+m.ratlla
+
+z.command
+```
