@@ -52,11 +52,13 @@ Així:
 pandoc file.md -o file.pdf
 ```
 
-Una versió extendida del mateix arxiu:
+Introduïm el color amb la gemma `colorize`, què podem trobar a [colorize](https://github.com/fazibear/colorize)
 
 ```ruby
 #!/usr/bin/ruby -wKU
 # coding: utf-8
+
+require 'colorize'
 
 # The Greeter class
 class Greeter
@@ -65,22 +67,50 @@ class Greeter
     @name2 = name
   end
 
-  def salute
-    puts "Hola #{@name1}! En minúscula #{@name2}!"
+  def ratlla
+    puts "------------------------------------------"
   end
+  
+  def salute
+    puts "Hola" + " #{@name1}".colorize(:light_green) + "! En minúscula" +  " #{@name2}!".colorize(:light_red)
+  end
+
+  def text
+    puts "Lorem Ipsum" + " #{@name1}".colorize(:light_red) + ", ara una altra" + " #{@name2}".colorize(:light_blue)
+  end
+
+  def command
+    puts "Arxius en directori: "
+    puts `ls`.colorize(:blue)
+  end
+  
 end
 
 # Create a new object
+m = Greeter.new("")
 a = Greeter.new("món")
 b = Greeter.new("pedra")
 c = Greeter.new("taula")
 d = Greeter.new("martell")
+z = Greeter.new("")
 
 # Output "Hello World!"
+
+m.ratlla
+
 a.salute
 b.salute
 c.salute
 d.salute
+
+a.text
+b.text
+c.text
+d.text
+
+m.ratlla
+
+z.command
 
 # Write in a file
 #File.write('/path/to/file', 'Some glorious content')
@@ -91,4 +121,64 @@ File.write('file.md', 'Lorem Ipsum')
 
 puts "Has creat un arxiu anomenat file.md, què conté 'Lorem Ipsum'"
 puts "Pots utilitzar Pandoc per generar pdf"
+```
+
+Modificacions demant el nom pel terminal:
+
+```ruby
+#!/usr/bin/ruby -wKU
+# coding: utf-8
+
+require 'colorize'
+
+puts "Escriu dos noms: "
+
+# The Greeter class
+class Greeter
+  def initialize(name)
+    @name1 = name.chomp
+    @name2 = name.chomp
+  end
+
+  def nom
+    puts "Nom: "
+  end
+  
+  def ratlla
+    puts "------------------------------------------".colorize(:light_magenta)
+  end
+ 
+  def salute
+    puts "Hola" + " #{@name1}".colorize(:light_green) + "! Això és un text."
+  end
+
+  def text
+    puts "Lorem Ipsum" + " #{@name1}".colorize(:light_red) + ", ara una altra"
+  end
+
+  def command
+    puts "Arxius en directori: "
+    puts `ls`.colorize(:blue)
+    puts `date`.colorize(:light_magenta)
+  end
+  
+end
+
+# Create a new object
+
+m = Greeter.new("")
+a = Greeter.new(gets)
+b = Greeter.new(gets)
+z = Greeter.new("")
+
+# Output the object
+
+m.ratlla
+
+a.salute
+b.salute
+
+m.ratlla
+
+z.command
 ```
