@@ -28,7 +28,7 @@ Aquest projecte sorgeix de la necessitat d'aprendre el llenguatge de programció
 10. [Codehero](http://codehero.co/series/ruby-desde-cero.html)
 11. [Wikilibros: Progrmación en Ruby](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Ruby)
 12. [Ruby Essentials](http://www.techotopia.com/index.php/Ruby_Essentials)
-
+13. [Learning Ruby Languaje](https://riptutorial.com/Download/ruby-language.pdf)
 
 ## 02 Slides
 
