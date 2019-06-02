@@ -1,0 +1,177 @@
+---
+layout: post # note, post, report, capture
+title: 63 Class
+date: 2019-06-02
+description: Concepte de classe 
+keywords: class
+coments: Comprén les diferents parts del concepte de classe
+---
+
+Font: [Font](https://www.tutorialspoint.com/ruby/ruby_object_oriented.htm)
+
+### 1. Concpetualització
+
+- **Ruby** és un llenguatge purament orientat a objectes, tot es veu com un objecte.
+- Cada valor és un objecte, inclús les coses més simples: **cadenes**, **nombres**, **booleans**...
+- Cada **classe** en sí mateix és un objecte que és una instància de la clase `class`.
+- La **classe** s'usa per a especificar la forma en d'un objecte i combina la representació de **dades** i els **mètodes** per a manipular aquestes dades en un paquet ordenat.
+- Les **dades** i els **mètodes** s'anomenen membres de la classe.
+
+
+### 2. Definició de classe en Ruby
+
+Quan definim una classe, definim un model per a un tipus de dades. Això no defineix realment cap dada, sinó que defineix el que vol dir el nom de classe, és a dir, en què consistirà un objecte de la classe i quines operacions es poden dur a terme en aquest objecte.
+
+Una definició de classe comença amb la classe de paraula clau seguida del nom de la classe i està limitat amb un final.
+
+```ruby
+class Box
+      code
+end
+```
+
+El **nom de la classe ha de començar per majúscula**, i per convenció, els noms que contingen **més d'una paraula s'executen juntament amb cada paraula majúscula i sense separar els caracters (CamelCase)**.
+
+### 3. Definim obectes en Ruby
+
+Una classe proporciona els plànols dels objectes, de manera que bàsicament es crea un objecte a partir d'una classe. Declarem objectes d'una classe mitjançant una nova paraula clau. Les declaracinos següents declaren dos objectes de la classe Box.
+
+```ruby
+box1 = Box.new
+box2 = Box.new
+```
+
+### 4. El mètode d'inicialització
+
+El mètode d'inicialització és un mètode de classe Ruby estàndard i funcinoa gairebé de la mateixa manera que el mconstructura funciona en altres llenguatges de programació orientatats a objectes.
+
+El mètode d'inicialització és útil quan volem inicialitzar algunes variables de classe en el moment de la creació d'objectes.
+
+Aquest mètode pot prendre una llista de paràmetres i, com qualsevol altre mètode de Ruby, seria precedida per la paraula clau `def` com es mostra a continuació:
+
+```ruby
+class Box
+      def initialize(w,h)
+      	  @width, @height = w, h
+      end
+end
+```
+
+### 5. Les variables d'instància
+
+Les variables d'instància són tipus d'atributs de classe i es converteixen en propietats dels objectes quan els objectes es creen utilitzant la classe.
+
+Els atributs de cada objecte s'assignen individualment i no comparteixen cap valor amb altres objectes.
+
+S'hi accedeix mitjançant l'operador `@` dins de la classe, però per accedir-hi fora de la classe utilitzem mètodes públics, que s'anomenen mètodes d'accés.
+
+Si prenem la classe definida anteriorment, `class Box`, llavors `@width` i `@height` s'on variables de `class Box`.
+
+
+```ruby
+class Box
+      def initialize(w,h)
+      # assign instance variables
+      @width, @height = w,h
+      end
+end
+```
+
+### 6. Els mètodes accessoris i establerts
+
+Perquè les variables estiguen disponibles des de fora de la classe, s'han de definir dins dels `accesor methods`, aquests mètodes accessoris també es coneixen com a `getter methods`. L’exemple següent mostra l’ús de mètodes d’accés:
+
+```ruby
+#!/usr/bin/ruby -w
+
+# define a class
+class Box
+   # constructor method
+   def initialize(w,h)
+      @width, @height = w, h
+   end
+
+   # accessor methods
+   def printWidth
+      @width
+   end
+
+   def printHeight
+      @height
+   end
+end
+
+# create an object
+box = Box.new(10, 20)
+
+# use accessor methods
+x = box.printWidth()
+y = box.printHeight()
+
+puts "Width of the box is : #{x}"
+puts "Height of the box is : #{y}"
+```
+
+Output:
+
+```ruby
+Width of the box is : 10
+Height of the box is : 20
+```
+
+Igual que els mètodes accessoris, que s’utilitzen per accedir al valor de les variables, Ruby proporciona una manera d’establir els valors d’aquestes variables de fora de la classe mitjançant `setter metthods`, que es defineixen a continuació:
+
+```ruby
+#!/usr/bin/ruby -w
+
+# define a class
+class Box
+   # constructor method
+   def initialize(w,h)
+      @width, @height = w, h
+   end
+
+   # accessor methods
+   def getWidth
+      @width
+   end
+   def getHeight
+      @height
+   end
+
+   # setter methods
+   def setWidth=(value)
+      @width = value
+   end
+   def setHeight=(value)
+      @height = value
+   end
+end
+
+# create an object
+box = Box.new(10, 20)
+
+# use setter methods
+box.setWidth = 30
+box.setHeight = 50
+
+# use accessor methods
+x = box.getWidth()
+y = box.getHeight()
+
+puts "Width of the box is : #{x}"
+puts "Height of the box is : #{y}"
+```
+
+Output:
+
+```ruby
+Width of the box is : 30
+Height of the box is : 50
+```
+
+### 5. Mètodes d'instància
+
+Els mètodes d'instància també es defineixen de la **mateixa manera que definim qualsevol altre mètode que utilitza la paraula clau** `def` i **es poden utilitzar utilitzant una instància de classe** només com es mostra a continuació.
+
+La seva funcionalitat no es limita a accedir a les variables d'instància, sinó que també poden fer molt més segons el vostre requisit.
