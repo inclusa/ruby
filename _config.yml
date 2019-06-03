@@ -43,7 +43,7 @@ og_locale: "ca_ES"
 twitter_card: "summary_large_image"
 twitter_site: "@HeiswayiNrird"
 
-gems:
+plugins:
   - bourbon
   - jekyll-paginate
 
