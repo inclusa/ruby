@@ -28,7 +28,7 @@ ruby movie.rb Gladiator
 ==================================================
 ```
 
-Font: [Hakemeyer](https://github.com/jakewmeyer/Ruby-Scripts/blob/master/movie-search/movie.rb)
+Font: [Jakemeyer](https://github.com/jakewmeyer/Ruby-Scripts/blob/master/movie-search/movie.rb)
 
 ```ruby
 #!/usr/bin/env ruby
