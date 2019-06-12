@@ -9,6 +9,25 @@ coments:
 
 Per tal de fer una consulta des del termimal sobre les dades d'una pel·lícula concreta.
 
+```ruby
+ruby movie.rb Gladiator
+==================================================
+| Title: Gladiator
+| Year: 2000
+| Tomato: 76%
+| Rated: R
+| Genre: Action, Adventure, Drama
+| Director: Ridley Scott
+| Actors: Russell Crowe, Joaquin Phoenix, Connie Nielsen,
+| Oliver Reed
+| 
+| Plot: A former Roman General sets out to exact
+| vengeance against the corrupt emperor who
+| murdered his family and sent him into slavery.
+| 
+==================================================
+```
+
 Font: [Hakemeyer](https://github.com/jakewmeyer/Ruby-Scripts/blob/master/movie-search/movie.rb)
 
 ```ruby
