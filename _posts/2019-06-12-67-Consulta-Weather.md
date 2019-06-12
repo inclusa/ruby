@@ -9,7 +9,7 @@ coments:
 
 Per tal de consultar el temps d'una ciutat.
 
-```ryby
+```ruby
 ruby weather.rb London
 ======================
 City: London
