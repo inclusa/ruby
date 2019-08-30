@@ -90,13 +90,13 @@ blockquote {
 
 code {
   background: none;
-  border-radius: 0;
+   border-radius: 0;
   border: none;
   font-family: monospace;
   font-size: 1em;
   margin: 0;
-  padding: 0 5px;
-  background-color: lighten($light-gray-color, 13%);
+  padding: 0 5px; 
+  background-color: lighten($light-gray-color, 13%); 
 }
 
 pre {
@@ -110,10 +110,10 @@ pre {
   white-space: pre;
   border: 1px solid $light-gray-color;
 
-  code {
+ code {
     line-height: 1.75em;
     padding: 0 !important;
-  }
+  } 
 }
 
 strong {
